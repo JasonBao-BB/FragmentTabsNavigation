@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_google"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Google" />
+        <item
+            android:id="@+id/nav_yahoo"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Yahoo" />
+        <item
+            android:id="@+id/nav_bilibili"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="BILIBILI" />
+        <item
+            android:id="@+id/nav_douyu"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="DouYuTV" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
